@@ -1,0 +1,26 @@
+body{
+    background-color: purple;
+}
+
+div{
+    text-align: center;
+}
+
+p {
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px white;
+    background: linear-gradient(to right, white 40%, transparent 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    background-position: 0%;
+    transition: background-position 1.2s, transform 0.8s;
+}
+
+p:hover {
+    background-position: 100%;
+    transform: scale(1.5);
+    -webkit-text-fill-color: transparent;
+}
